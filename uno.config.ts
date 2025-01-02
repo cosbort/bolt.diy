@@ -234,17 +234,16 @@ export default defineConfig({
   transformers: [transformerDirectives()],
   presets: [
     presetUno({
-      dark: {
-        light: '[data-theme="light"]',
-        dark: '[data-theme="dark"]',
-      },
+      dark: 'class'
     }),
     presetIcons({
+      scale: 1.2,
       warn: true,
       collections: {
         ...customIconCollection,
+        ph: () => import('@iconify-json/ph/icons.json').then(i => i.default),
+        'svg-spinners': () => import('@iconify-json/svg-spinners/icons.json').then(i => i.default)
       },
-      unit: 'em',
     }),
   ],
 });
@@ -257,7 +256,7 @@ export default defineConfig({
  *
  * Example:
  *
- * ```
+ * ```typescript
  * {
  *   '1': '#FFFFFF03',
  *   '2': '#FFFFFF05',

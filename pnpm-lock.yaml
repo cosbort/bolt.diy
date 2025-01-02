@@ -74,12 +74,6 @@ importers:
       '@codemirror/view':
         specifier: ^6.35.0
         version: 6.35.0
-      '@iconify-json/ph':
-        specifier: ^1.2.1
-        version: 1.2.1
-      '@iconify-json/svg-spinners':
-        specifier: ^1.2.1
-        version: 1.2.1
       '@lezer/highlight':
         specifier: ^1.2.1
         version: 1.2.1
@@ -234,6 +228,12 @@ importers:
       '@cloudflare/workers-types':
         specifier: ^4.20241127.0
         version: 4.20241127.0
+      '@iconify-json/ph':
+        specifier: ^1.2.1
+        version: 1.2.1
+      '@iconify-json/svg-spinners':
+        specifier: ^1.2.1
+        version: 1.2.1
       '@remix-run/dev':
         specifier: ^2.15.0
         version: 2.15.0(@remix-run/react@2.15.0(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(typescript@5.7.2))(@types/node@22.10.1)(sass-embedded@1.81.0)(typescript@5.7.2)(vite@5.4.11(@types/node@22.10.1)(sass-embedded@1.81.0))(wrangler@3.91.0(@cloudflare/workers-types@4.20241127.0))
