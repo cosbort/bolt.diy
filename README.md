@@ -14,6 +14,7 @@ bolt.diy was originally started by [Cole Medin](https://www.youtube.com/@ColeMed
 - [Join the Community](#join-the-community)
 - [Requested Additions](#requested-additions)
 - [Features](#features)
+- [Tecnologie Utilizzate](#tecnologie-utilizzate)
 - [Setup](#setup)
 - [Run the Application](#run-the-application)
 - [Available Scripts](#available-scripts)
@@ -85,6 +86,28 @@ bolt.diy was originally started by [Cole Medin](https://www.youtube.com/@ColeMed
 - **Revert code to earlier versions** for easier debugging and quicker changes.
 - **Download projects as ZIP** for easy portability.
 - **Integration-ready Docker support** for a hassle-free setup.
+
+## Tecnologie Utilizzate
+
+- **Framework Frontend**: 
+  - Remix.js per il routing e la gestione del server-side rendering
+  - UnoCSS per lo styling con supporto per preset e icone personalizzate
+  - CodeMirror 6 per l'editor di codice avanzato
+
+- **AI e LLM Integration**:
+  - Supporto per molteplici provider AI tra cui OpenAI, Anthropic, Google AI, Mistral, e Cohere
+  - SDK AI personalizzati per ogni provider
+
+- **Developer Tools**:
+  - TypeScript per il type checking statico
+  - Vite come bundler e development server
+  - Docker per la containerizzazione
+  - Husky per i git hooks
+  - ESLint e Prettier per il code formatting
+
+- **Runtime**:
+  - Node.js ≥18.18.0
+  - Wrangler per il deployment su Cloudflare Pages
 
 ## Setup 
 
